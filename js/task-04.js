@@ -6,11 +6,11 @@ const refs = {
   spanCounterValue: document.querySelector('#value'),
 };
 
-refs.decrBtn.addEventListener('click',onDecrBtnClick);
-refs.incrBtn.addEventListener('click',onIncrBtnClick);
+refs.decrBtn.addEventListener('click', onDecrBtnClick);
+refs.incrBtn.addEventListener('click', onIncrBtnClick);
 
 function onDecrBtnClick() {
-   counterValue -= 1
+  counterValue -= 1;
   refs.spanCounterValue.textContent = counterValue;
 }
 

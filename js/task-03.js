@@ -22,7 +22,6 @@ const makeGalleryItem = ({ url, alt }) => {
   ulGallery.style.listStyle = 'none';
   ulGallery.style.flexBasis = 'calc(33.33% - 10px)';
   ulGallery.insertAdjacentHTML('beforeend', galleryListEl);
-
 };
 
 const galleryList = images.map(makeGalleryItem);
